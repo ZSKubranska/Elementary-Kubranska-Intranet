@@ -13,8 +13,8 @@ h1 {
    width: 100%;
    background-color: #F0F0F0;
    color: #6495ed;
-   font-family: "Corporate Logo ver2";
-   font-size: large;
+   font-family: "Montserrat";
+   font-size: xx-large;
    text-align: center;
 }
 
@@ -24,8 +24,8 @@ h2 {
     left: 0;
     width: 100%;
     background-color: #6495ed;
-    color: #F0F0F0;
-    font-family: "Corporate Logo ver2";
+    color: #FFFFFF;
+    font-family: "Montserrat";
     font-size: medium;
     text-align: center;
 }

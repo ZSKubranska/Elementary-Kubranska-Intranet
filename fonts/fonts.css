@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'Corporate Logo ver2';
-    src: url('Corporate-Logo-Bold-ver2.eot');
-    src: url('Corporate-Logo-Bold-ver2.eot?#iefix') format('embedded-opentype'),
-        url('Corporate-Logo-Bold-ver2.woff') format('woff'),
-        url('Corporate-Logo-Bold-ver2.ttf') format('truetype'),
-        url('Corporate-Logo-Bold-ver2.svg#Corporate-Logo-Bold-ver2') format('svg');
-    font-weight: bold;
+    font-family: 'Montserrat';
+    src: url('Montserrat-Black.eot');
+    src: url('Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Black.woff') format('woff'),
+        url('Montserrat-Black.ttf') format('truetype'),
+        url('Montserrat-Black.svg#Montserrat-Black') format('svg');
+    font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
