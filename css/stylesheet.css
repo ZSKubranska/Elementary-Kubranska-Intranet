@@ -42,10 +42,6 @@ h2 {
     margin-block-end: 0;
 }
 
-h2#credits {
-  position: absolute;
-}
-
 #credits {
   background-color: #0F0F0F;
   color: #F0F0F0 !important;
