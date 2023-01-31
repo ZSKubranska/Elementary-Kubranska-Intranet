@@ -2,7 +2,7 @@ header {
     background-color: #F0F0F0;
     margin-bottom: 1em;
     width: 100%;
-    color: #0F0F0F;
+    color: #6495ed;
     font-family: 'Corporate Logo ver2';
   }
 
@@ -40,4 +40,8 @@ h2 {
     margin-top: 2px;
     margin-block-start: 0;
     margin-block-end: 0;
+}
+
+h2#credits {
+  background-color: #0F0F0F;
 }
