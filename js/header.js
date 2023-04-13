@@ -127,3 +127,5 @@ for (; ;) {
     namedayspan.textContent = (quotes[whichquote]);
     setTimeout(wait, 5000);
 }
+
+function wait() {}
