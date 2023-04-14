@@ -115,17 +115,21 @@ quotes[29] = 'Najvážnejšou chorobou politiky je, že produkuje krásne reči 
 quotes[30] = 'Kritika je jediná vedecká disciplína, ktorá je vedecky chápaná najmenej.'
 
 var whichquote = Math.floor(Math.random() * (quotes.length));
+setHeader()
 
 /*---------------------------------------------------------------------*/
 
-const nameday = document.querySelector("#names");
-const namedayspan = nameday.querySelector("span");
+function setHeader() {
 
-for (; ;) {
-    namedayspan.textContent = "Dnes má meniny " + kalendar[kalendarIndex] + " | Zajtra má meniny " + kalendar[kalendarIndex + 1];
-    setTimeout(wait, 5000);
-    namedayspan.textContent = (quotes[whichquote]);
-    setTimeout(wait, 5000);
+    const nameday = document.querySelector("#names");
+    const namedayspan = nameday.querySelector("span");
+
+    for (; ;) {
+        namedayspan.textContent = "Dnes má meniny " + kalendar[kalendarIndex] + " | Zajtra má meniny " + kalendar[kalendarIndex + 1];
+        setTimeout(wait, 5000);
+        namedayspan.textContent = (quotes[whichquote]);
+        setTimeout(wait, 5000);
+    }
 }
 
 function wait() {}
