@@ -1,3 +1,7 @@
+function beginHeaderSetUp() {
+    setNames()
+}
+
 function setNames() {
 
     dnes = new Date();
