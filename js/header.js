@@ -85,7 +85,7 @@ function setNames() {
     for (i = 0; i < (mesiac - 1); i++) kalendarDnes += dniVMesiaci[i];
     kalendarDnes += (den - 1); kalendarZajtra = kalendarDnes + 1
     kalendarString = "Dnes má meniny " + kalendar[kalendarDnes] + " | Zajtra má meniny " + kalendar[kalendarZajtra];
-    function setQuote(kalendarString)
+    setQuote(kalendarString)
 }
 
 /*---------------------------------------------------------------------*/
