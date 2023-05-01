@@ -4,10 +4,10 @@ function beginHeaderSetUp() {
 
 function setNames() {
 
-    dnes = new Date();
-    mesiac = dnes.getMonth() + 1;
-    den = dnes.getDate();
-    kalendar = new Array("Nový rok", "Alexandra", "Daniela", "Drahoslav", "Andrea", "Antónia",
+    const dnes = new Date();
+    const mesiac = dnes.getMonth() + 1;
+    const den = dnes.getDate();
+    const kalendar = ["Nový rok", "Alexandra", "Daniela", "Drahoslav", "Andrea", "Antónia",
         "Bohuslava/Róbert", "Severín", "Alexej", "Dáša", "Malvína",
         "Ernest", "Rastislav", "Radovan", "Dobroslav", "Kristína",
         "Nataša", "Bohdana", "Drahomíra", "Dalibor", "Vincent", "Zora",
@@ -79,7 +79,7 @@ function setNames() {
         "Lucia", "Branislava/Bronislava", "Ivica", "Albína", "Kornélia",
         "Sláva/Slávka", "Judita", "Dagmara", "Bohdan", "Adela", "Nadežda",
         "Adam/Eva", "Vianoce", "Štefan", "Filoména", "Ivana/Ivona", "Milada",
-        "Dávid", "Silvester");
+        "Dávid", "Silvester"];
     dniVMesiaci = new Array(31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);
     kalendarDnes = 0;
     for (i = 0; i < (mesiac - 1); i++) kalendarDnes += dniVMesiaci[i];
