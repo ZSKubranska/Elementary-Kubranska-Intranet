@@ -145,12 +145,11 @@ function setHeader(currentName, todaysQuote) {
     loop()
 
     function loop() {
-        setInterval(function () {
-            namedayspan.textContent = currentName;
-            setTimeout(function () {
-                namedayspan.textContent = todaysQuote;
-            }, 5000);
-        }, 0);
-        loop()
+        namedayspan.textContent = currentName;
+        setTimeout(function () {
+            namedayspan.textContent = todaysQuote;
+            loop();
+        }, 5000);
+        loop();
     }
 }
