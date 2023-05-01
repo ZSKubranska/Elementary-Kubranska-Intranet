@@ -141,14 +141,12 @@ function setHeader(currentName, todaysQuote) {
     const nameday = document.querySelector("#names");
     const namedayspan = nameday.querySelector("span");
 
-    console.log("setHeader variables succesfully configured.")
+    console.log("setHeader variables succesfully configured.");
 
-    for (; ;) {
+    setInterval(function () {
         namedayspan.textContent = currentName;
-        setTimeout(wait, 5000);
-        namedayspan.textContent = todaysQuote;
-        setTimeout(wait, 5000);
-    }
+        setTimeout(function () {
+            namedayspan.textContent = todaysQuote;
+        }, 5000);
+    }, 10000);
 }
-
-function wait() {}
