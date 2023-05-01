@@ -148,5 +148,5 @@ function setHeader(currentName, todaysQuote) {
         setTimeout(function () {
             namedayspan.textContent = todaysQuote;
         }, 5000);
-    }, 10000);
+    }, 0);
 }
