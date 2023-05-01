@@ -146,7 +146,6 @@ function setHeader(currentName, todaysQuote) {
         const namedayspan = nameday.querySelector("span");
 
         console.log("setHeaderLoop variables succesfully configured.");
-        loop()
 
         namedayspan.textContent = currentName;
         setTimeout(function () {
