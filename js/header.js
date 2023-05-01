@@ -83,7 +83,7 @@ function setNames() {
     const dniVMesiaci = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
     var kalendarDnes = 0;
     for (i = 0; i < (mesiac - 1); i++) kalendarDnes += dniVMesiaci[i];
-    kalendarDnes += (den - 1); kalendarZajtra = kalendarDnes + 1
+    kalendarDnes += (den - 1); kalendarZajtra = kalendarDnes + 1;
     const kalendarString = "Dnes má meniny " + kalendar[kalendarDnes] + " | Zajtra má meniny " + kalendar[kalendarZajtra];
     setQuote(kalendarString)
 }
@@ -124,8 +124,8 @@ function setQuote(currentName) {
     'Najvážnejšou chorobou politiky je, že produkuje krásne reči a zväčša kyslé plody.',
     'Kritika je jediná vedecká disciplína, ktorá je vedecky chápaná najmenej.']
 
-    var whichQuote = Math.floor(Math.random() * (quotes.length));
-    var todaysQuote = quotes[whichQuote]
+    const whichQuote = Math.floor(Math.random() * (quotes.length));
+    const todaysQuote = quotes[whichQuote]
     setHeader(currentName, todaysQuote)
 }
 /*---------------------------------------------------------------------*/
