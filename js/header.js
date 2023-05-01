@@ -137,6 +137,7 @@ function setQuote(currentName) {
 
 function setHeader(currentName, todaysQuote) {
     console.log("setHeader succesfully started.")
+    
     function loop(currentName, todaysQuote) {
         console.log("setHeaderLoop succesfully started.")
 
@@ -153,4 +154,5 @@ function setHeader(currentName, todaysQuote) {
         }, 5000);
         loop();
     }
+    loop()
 }
