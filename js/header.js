@@ -137,22 +137,18 @@ function setQuote(currentName) {
 
 function setHeader(currentName, todaysQuote) {
     console.log("setHeader succesfully started.")
-    
-    function loop(currentName, todaysQuote) {
-        console.log("setHeaderLoop succesfully started.")
 
-        const nameday = document.querySelector("#names");
-        const namedayspan = nameday.querySelector("span");
+    console.log("setHeaderLoop succesfully started.")
 
-        console.log("setHeaderLoop variables succesfully configured.");
-        loop()
+    const nameday = document.querySelector("#names");
+    const namedayspan = nameday.querySelector("span");
 
-        namedayspan.textContent = currentName;
-        setTimeout(function () {
-            namedayspan.textContent = todaysQuote;
-            loop();
-        }, 5000);
-        loop();
-    }
+    console.log("setHeaderLoop variables succesfully configured.");
     loop()
+
+    namedayspan.textContent = currentName;
+    setTimeout(function () {
+        namedayspan.textContent = todaysQuote;
+    }, 5000);
+    setHeader(currentName, todaysQuote);
 }
