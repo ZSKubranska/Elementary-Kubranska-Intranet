@@ -1,9 +1,11 @@
 function beginHeaderSetUp() {
+    console.log("beginHeaderSetUp succesfully started.")
     setNames();
 }
 
 function setNames() {
 
+    console.log("setNames succesfully started.")
     dnes = new Date();
     mesiac = dnes.getMonth() + 1;
     den = dnes.getDate();
@@ -81,6 +83,7 @@ function setNames() {
         "Adam/Eva", "Vianoce", "Štefan", "Filoména", "Ivana/Ivona", "Milada",
         "Dávid", "Silvester"];
     const dniVMesiaci = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+    console.log("setNames variables succesfully configured.")
     var kalendarDnes = 0;
     for (i = 0; i < (mesiac - 1); i++) kalendarDnes += dniVMesiaci[i];
     kalendarDnes += (den - 1); kalendarZajtra = kalendarDnes + 1;
@@ -91,6 +94,7 @@ function setNames() {
 /*---------------------------------------------------------------------*/
 
 function setQuote(currentName) {
+    console.log("setQuote succesfully started.")
     const quotes = [
         'Najväčším umením je byť človekom.',
         'Ani najkrajšie slovo nemá cenu, ak sa rozchádza s činom.',
@@ -126,14 +130,18 @@ function setQuote(currentName) {
 
     const whichQuote = Math.floor(Math.random() * (quotes.length));
     const todaysQuote = quotes[whichQuote];
+    console.log("setQuote variables succesfully configured.")
     setHeader(currentName, todaysQuote);
 }
 /*---------------------------------------------------------------------*/
 
 function setHeader(currentName, todaysQuote) {
+    console.log("setHeader succesfully started.")
 
     const nameday = document.querySelector("#names");
     const namedayspan = nameday.querySelector("span");
+
+    console.log("setHeader variables succesfully configured.")
 
     for (; ;) {
         namedayspan.textContent = currentName;
