@@ -91,38 +91,38 @@ function setNames() {
 /*---------------------------------------------------------------------*/
 
 function setQuote(currentName) {
-    var quotes = new Array()
-    quotes[0] = 'Najväčším umením je byť človekom.'
-    quotes[1] = 'Ani najkrajšie slovo nemá cenu, ak sa rozchádza s činom.'
-    quotes[2] = 'Najbližšie k pravde má ten, kto tvrdí, že k pravde je veľmi ďaleko.'
-    quotes[3] = 'Kde sa pred statočným človekom dvere zatvárajú, tam vládne nestatočnosť.'
-    quotes[4] = 'Najcennejšou devízou človeka je jeho charakter.'
-    quotes[5] = 'Pravda má úžasnú moc. Aj keď ju ukrižujú, vždy vstane z mŕtvych.'
-    quotes[6] = 'Mýli sa ten, kto si myslí, že je neomylný.'
-    quotes[7] = 'Kto nemiluje, zaživa zomiera.'
-    quotes[8] = 'Starý je iba ten, komu je dlhý deň.'
-    quotes[9] = 'Šaty robia človeka, ale nie jeho charakter.'
-    quotes[10] = 'Najťažšie je o pravde presvedčiť hlupáka.'
-    quotes[11] = 'Múdry je ten, kto sa učí na chybách iných.'
-    quotes[12] = 'Hodnota slova závisí, od akého človeka pochádza.'
-    quotes[13] = 'Najväčším umením je odstrániť rozdiel medzi slovami a činmi.'
-    quotes[14] = 'Najťažšie je narovanať krivé charaktery.'
-    quotes[15] = 'Pravda je ako korenie. Nie je dobré dávať jej naraz priveľa.'
-    quotes[16] = 'Šťastný môže byť iba ten, kto sa naučí byť so všetkým spokojný.'
-    quotes[17] = 'Inteligentný človek je skromný, lebo vie, že oproti tomu, čo ešte nevie, vie veľmi málo.'
-    quotes[18] = 'Česť a svedomie sa nedajú na trhu kúpiť, ale predať áno.'
-    quotes[19] = 'Minulosť je najlepšou učiteľkou budúcnosti.'
-    quotes[20] = 'Aj malá lož môže zapríčiniť veľké škody.'
-    quotes[21] = 'Sebca nikdy nebolia problémy, ktoré spôsobil druhým.'
-    quotes[22] = 'Pozrieť sa pravde do očí robí najväčšie problémy luhárovi.'
-    quotes[23] = 'Nepríjemná pravda je hodnotnejšia ako kvetnatá lož.'
-    quotes[24] = 'Najlepšiu pamäť má smrť. Na nikoho nezabudne.'
-    quotes[25] = 'Nejeden človek dokáže za peniaze urobiť všetko, len nie byť človekom.'
-    quotes[26] = 'Najťažšie medzi ľuďmi je nájsť človeka.'
-    quotes[27] = 'Hlupák je preto hlupákom, lebo si myslí, že je najmúdrejší.'
-    quotes[28] = 'Sláva odoberá rozum a klamstvo charakter.'
-    quotes[29] = 'Najvážnejšou chorobou politiky je, že produkuje krásne reči a zväčša kyslé plody.'
-    quotes[30] = 'Kritika je jediná vedecká disciplína, ktorá je vedecky chápaná najmenej.'
+    const quotes = [
+    'Najväčším umením je byť človekom.',
+    'Ani najkrajšie slovo nemá cenu, ak sa rozchádza s činom.',
+    'Najbližšie k pravde má ten, kto tvrdí, že k pravde je veľmi ďaleko.',
+    'Kde sa pred statočným človekom dvere zatvárajú, tam vládne nestatočnosť.',
+    'Najcennejšou devízou človeka je jeho charakter.',
+    'Pravda má úžasnú moc. Aj keď ju ukrižujú, vždy vstane z mŕtvych.',
+    'Mýli sa ten, kto si myslí, že je neomylný.',
+    'Kto nemiluje, zaživa zomiera.',
+    'Starý je iba ten, komu je dlhý deň.',
+    'Šaty robia človeka, ale nie jeho charakter.',
+    'Najťažšie je o pravde presvedčiť hlupáka.',
+    'Múdry je ten, kto sa učí na chybách iných.',
+    'Hodnota slova závisí, od akého človeka pochádza.',
+    'Najväčším umením je odstrániť rozdiel medzi slovami a činmi.',
+    'Najťažšie je narovanať krivé charaktery.',
+    'Pravda je ako korenie. Nie je dobré dávať jej naraz priveľa.',
+    'Šťastný môže byť iba ten, kto sa naučí byť so všetkým spokojný.',
+    'Inteligentný človek je skromný, lebo vie, že oproti tomu, čo ešte nevie, vie veľmi málo.',
+    'Česť a svedomie sa nedajú na trhu kúpiť, ale predať áno.',
+    'Minulosť je najlepšou učiteľkou budúcnosti.',
+    'Aj malá lož môže zapríčiniť veľké škody.',
+    'Sebca nikdy nebolia problémy, ktoré spôsobil druhým.',
+    'Pozrieť sa pravde do očí robí najväčšie problémy luhárovi.',
+    'Nepríjemná pravda je hodnotnejšia ako kvetnatá lož.',
+    'Najlepšiu pamäť má smrť. Na nikoho nezabudne.',
+    'Nejeden človek dokáže za peniaze urobiť všetko, len nie byť človekom.',
+    'Najťažšie medzi ľuďmi je nájsť človeka.',
+    'Hlupák je preto hlupákom, lebo si myslí, že je najmúdrejší.',
+    'Sláva odoberá rozum a klamstvo charakter.',
+    'Najvážnejšou chorobou politiky je, že produkuje krásne reči a zväčša kyslé plody.',
+    'Kritika je jediná vedecká disciplína, ktorá je vedecky chápaná najmenej.']
 
     var whichQuote = Math.floor(Math.random() * (quotes.length));
     var todaysQuote = quotes[whichQuote]
