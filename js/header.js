@@ -1,5 +1,5 @@
 function beginHeaderSetUp() {
-    setNames()
+    setNames();
 }
 
 function setNames() {
@@ -92,41 +92,41 @@ function setNames() {
 
 function setQuote(currentName) {
     const quotes = [
-    'Najväčším umením je byť človekom.',
-    'Ani najkrajšie slovo nemá cenu, ak sa rozchádza s činom.',
-    'Najbližšie k pravde má ten, kto tvrdí, že k pravde je veľmi ďaleko.',
-    'Kde sa pred statočným človekom dvere zatvárajú, tam vládne nestatočnosť.',
-    'Najcennejšou devízou človeka je jeho charakter.',
-    'Pravda má úžasnú moc. Aj keď ju ukrižujú, vždy vstane z mŕtvych.',
-    'Mýli sa ten, kto si myslí, že je neomylný.',
-    'Kto nemiluje, zaživa zomiera.',
-    'Starý je iba ten, komu je dlhý deň.',
-    'Šaty robia človeka, ale nie jeho charakter.',
-    'Najťažšie je o pravde presvedčiť hlupáka.',
-    'Múdry je ten, kto sa učí na chybách iných.',
-    'Hodnota slova závisí, od akého človeka pochádza.',
-    'Najväčším umením je odstrániť rozdiel medzi slovami a činmi.',
-    'Najťažšie je narovanať krivé charaktery.',
-    'Pravda je ako korenie. Nie je dobré dávať jej naraz priveľa.',
-    'Šťastný môže byť iba ten, kto sa naučí byť so všetkým spokojný.',
-    'Inteligentný človek je skromný, lebo vie, že oproti tomu, čo ešte nevie, vie veľmi málo.',
-    'Česť a svedomie sa nedajú na trhu kúpiť, ale predať áno.',
-    'Minulosť je najlepšou učiteľkou budúcnosti.',
-    'Aj malá lož môže zapríčiniť veľké škody.',
-    'Sebca nikdy nebolia problémy, ktoré spôsobil druhým.',
-    'Pozrieť sa pravde do očí robí najväčšie problémy luhárovi.',
-    'Nepríjemná pravda je hodnotnejšia ako kvetnatá lož.',
-    'Najlepšiu pamäť má smrť. Na nikoho nezabudne.',
-    'Nejeden človek dokáže za peniaze urobiť všetko, len nie byť človekom.',
-    'Najťažšie medzi ľuďmi je nájsť človeka.',
-    'Hlupák je preto hlupákom, lebo si myslí, že je najmúdrejší.',
-    'Sláva odoberá rozum a klamstvo charakter.',
-    'Najvážnejšou chorobou politiky je, že produkuje krásne reči a zväčša kyslé plody.',
-    'Kritika je jediná vedecká disciplína, ktorá je vedecky chápaná najmenej.']
+        'Najväčším umením je byť človekom.',
+        'Ani najkrajšie slovo nemá cenu, ak sa rozchádza s činom.',
+        'Najbližšie k pravde má ten, kto tvrdí, že k pravde je veľmi ďaleko.',
+        'Kde sa pred statočným človekom dvere zatvárajú, tam vládne nestatočnosť.',
+        'Najcennejšou devízou človeka je jeho charakter.',
+        'Pravda má úžasnú moc. Aj keď ju ukrižujú, vždy vstane z mŕtvych.',
+        'Mýli sa ten, kto si myslí, že je neomylný.',
+        'Kto nemiluje, zaživa zomiera.',
+        'Starý je iba ten, komu je dlhý deň.',
+        'Šaty robia človeka, ale nie jeho charakter.',
+        'Najťažšie je o pravde presvedčiť hlupáka.',
+        'Múdry je ten, kto sa učí na chybách iných.',
+        'Hodnota slova závisí, od akého človeka pochádza.',
+        'Najväčším umením je odstrániť rozdiel medzi slovami a činmi.',
+        'Najťažšie je narovanať krivé charaktery.',
+        'Pravda je ako korenie. Nie je dobré dávať jej naraz priveľa.',
+        'Šťastný môže byť iba ten, kto sa naučí byť so všetkým spokojný.',
+        'Inteligentný človek je skromný, lebo vie, že oproti tomu, čo ešte nevie, vie veľmi málo.',
+        'Česť a svedomie sa nedajú na trhu kúpiť, ale predať áno.',
+        'Minulosť je najlepšou učiteľkou budúcnosti.',
+        'Aj malá lož môže zapríčiniť veľké škody.',
+        'Sebca nikdy nebolia problémy, ktoré spôsobil druhým.',
+        'Pozrieť sa pravde do očí robí najväčšie problémy luhárovi.',
+        'Nepríjemná pravda je hodnotnejšia ako kvetnatá lož.',
+        'Najlepšiu pamäť má smrť. Na nikoho nezabudne.',
+        'Nejeden človek dokáže za peniaze urobiť všetko, len nie byť človekom.',
+        'Najťažšie medzi ľuďmi je nájsť človeka.',
+        'Hlupák je preto hlupákom, lebo si myslí, že je najmúdrejší.',
+        'Sláva odoberá rozum a klamstvo charakter.',
+        'Najvážnejšou chorobou politiky je, že produkuje krásne reči a zväčša kyslé plody.',
+        'Kritika je jediná vedecká disciplína, ktorá je vedecky chápaná najmenej.'];
 
     const whichQuote = Math.floor(Math.random() * (quotes.length));
-    const todaysQuote = quotes[whichQuote]
-    setHeader(currentName, todaysQuote)
+    const todaysQuote = quotes[whichQuote];
+    setHeader(currentName, todaysQuote);
 }
 /*---------------------------------------------------------------------*/
 
