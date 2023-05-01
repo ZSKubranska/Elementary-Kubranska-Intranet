@@ -23,7 +23,7 @@ function setNames() {
         "Radoslav/Radoslava", "Tomáš/Róbert", "Alan/Alana", "Františka",
         "Branislav/Bruno", "Angela/Angelika", "Gregor", "Vlastimil",
         "Matilda", "Svetlana", "Boleslav", "Ľubica", "Eduard", "Jozef",
-        "Víazoslav", "Blahoslav", "Beňadik", "Adrián", "Gabriel",
+        "Víťazoslav", "Blahoslav", "Beňadik", "Adrián", "Gabriel",
         "Marián", "Emanuel", "Alena", "Soňa", "Miroslav", "Vieroslava",
         "Benjamín",
         "Hugo", "Zita", "Richard", "Izidor", "Miroslava", "Irena",
