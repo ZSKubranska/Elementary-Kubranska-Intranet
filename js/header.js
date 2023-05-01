@@ -151,6 +151,6 @@ function setHeader(currentName, todaysQuote) {
                 namedayspan.textContent = todaysQuote;
             }, 5000);
         }, 0);
-        loop()
+        setTimeout(loop(), 5000);
     }
 }
