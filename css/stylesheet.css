@@ -55,6 +55,13 @@ h3 {
   margin: 0;
 }
 
+footer {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  bottom: 0;
+}
+
 #credits {
   background-color: #0F0F0F;
   color: #F0F0F0 !important;
@@ -63,6 +70,7 @@ h3 {
   padding: 10px;
   display: block;
   position: absolute;
+  width: calc(100% - 20px);
 }
 #credits > span > a {
   text-decoration: none;
