@@ -58,6 +58,8 @@ h3 {
   bottom: 0;
   top: auto;
   padding: 10px;
+  display: block;
+  position: absolute;
 }
 #credits > span > a {
   text-decoration: none;
