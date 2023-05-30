@@ -102,3 +102,66 @@ h4 > span:hover {
   background-color: #6495ed;
   color: #ffffff !important;
 }
+
+
+/*ZADANIA*/
+zadanie {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+zadanie>trieda {
+  width: 100%;
+  background-color: #6495ed;
+  color: #FFFFFF !important;
+  font-family: "Montserrat";
+  font-size: 32px;
+  text-align: center;
+  display: block;
+  margin: 0;
+  margin-top: 2px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+zadanie>nadpiszadania {
+  width: 100%;
+  background-color: #FFFFFF;
+  color: #6495ed;
+  font-family: "Montserrat";
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+zadanie>telozadania {
+  width: calc(100% - 20px);
+  background-color: #0F0F0F;
+  padding: 10px;
+  text-align: center;
+  color: #F0F0F0 !important;
+  font-family: "Montserrat";
+  font-size: 12px;
+  margin: 0;
+  line-height: 16px;
+}
+
+telozadania b {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+telozadania br {
+  display: block;
+  height: 10px;
+  content: "";
+}
